@@ -1,10 +1,14 @@
 
 CC=g++
 
-
+#Optimized
 #CPPFLAGS= -O3 -Wno-pmf-conversions
-CPPFLAGS= -g -pg -MMD $(INCPATH) -Wno-pmf-conversions
-#CPPFLAGS= -g -MMD $(INCPATH) -Wno-pmf-conversions
+
+#Debugging with profiling info
+#CPPFLAGS= -g -pg -MMD $(INCPATH) -Wno-pmf-conversions
+
+#Debugging, no profiling
+CPPFLAGS= -g  -MMD $(INCPATH) -Wno-pmf-conversions
 
 PROGRAM = main
 
