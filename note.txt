@@ -1,0 +1,54 @@
+
+
+
+1.  Create github account
+2.  Edit .netrc
+    machine github.com
+    login <github username>
+    password <github password>
+
+4.  Make working directory
+    mkdir github
+    cd github
+
+5.  git clone github.com/dklamet/class
+
+
+
+
+C keywords
+
+auto
+break
+case
+char
+const
+continue
+default
+do
+double
+else
+enum
+extern
+float
+for
+goto
+if
+inline(since C99) **
+int
+long
+register
+return
+short
+signed
+sizeof
+static
+struct
+switch
+typedef
+union
+unsigned
+void
+volatile
+while 
+
