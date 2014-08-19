@@ -20,7 +20,11 @@ int getRandomInt(int maxval) //Why can't we just put sizeof in this function
 
 }
 
-
+//Note the coordinate system has center of window at 0,0  
+//right and up are positive
+//
+//Native windows (MS Windows and Unix Xwindows. normally have
+//topleft corner at 0,0.  Right and down are positive
 
 int main(int argc, char **argv)
 {
