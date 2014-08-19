@@ -1,0 +1,29 @@
+1.  Introduction
+
+2.  Why C++,
+    C/C++ overall best languages, but not right for every problem
+    Often people use what they know, instead of what's best.  Sometimes that's OK.
+    Scripting languages (bash and python or perl) can make you more effective and your
+    job more interesting.
+
+3.  A class can be interesting and fast paced, or slower and go into the details that
+    are useful and will help you become a professional software engineer/programmer
+    I'm teaching the latter, and will try to keep things interesting.
+
+4.  Other things are important besides programming knowlege.  Linux command line, scripting, and make 
+    are essential to the professional.  Automate boring or error prone tasks.  Version control (git) and  
+
+5.  This class is specific to Linux.  Much applies to Windows (and Mac) as they have evolved from the tools
+    originally written for Unix/Linux.
+
+6.  The best programmers I have met and worked with are focused on Unix/Linux. I've done windows programming
+    and many/most utilities have been ported to Windows and Mac.
+
+7.  Ask questions as they have them.  If there are a lot, we'll slow down and repeat.
+
+8.  Often I will cover a non-essential topic or idea quickly and return to it later.
+
+9.  I will repeat the things I think are important.  The more important, the more often I'll repeat it.
+
+10. I will repeat myself frequently.  Learning is best done by adding connections to existing knowledge, but
+    repetition is to reinforce is important, too.
