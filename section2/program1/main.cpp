@@ -1,43 +1,27 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <draw.h>
+
 
 int main(int argc, char **argv)
 {
-init_graphics(500,500);
+unsigned int value=0;  //Initialize and define
+int i;
 
-//drawcircle( 50,50,30,YELLOW);
+value=1;
 
-//Define points
-struct Point  p1={5,5};
-Point  p2={70,5}; //C++ shortcut, don't need the "struct"
-Point  p3={70,70}; 
-Point  p4;  //Not initialized
+for (i=0;i<sizeof(unsigned int)*4; i++)
+    {
+    printf("%04x\n",value);
+    value=value<<1;
+    usleep(100000);
+    }
 
-//p4 not initialized, wet the members separately
-p4.x=5;
-p4.y=70;
-
-
-//Draw square, slowly
-
-//Bottom
-drawline(5,5,70,5,YELLOW);
-flush();
-sleep(2);
-drawline(70,5 ,70,70,YELLOW);
-flush();
-sleep(2);
-
-//Same function name, different arguments C++ only
-//C would require different name
-drawline(p3,p4,YELLOW); flush();
-sleep(2);
-drawline(p4,p1,YELLOW);
-flush();
-
-sleep(8);
-
+for (i=0;i<sizeof(unsigned int)*8; i++)
+    {
+    unsigned int allones=0xffffffff;
+    printf("%08X\n",allones & ~(1<<i));
+    usleep(500000);
+    }
 }
 
