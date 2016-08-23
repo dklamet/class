@@ -6,6 +6,8 @@
 #define LOW_NIB_MASK 0x0f
 #define NIBBLE_SHIFT 4
 
+//Bitwise operators
+
 int main(int argc, char **argv)
 {
     unsigned int value;
