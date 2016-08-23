@@ -3,7 +3,6 @@
 #define __functions_h
 
 void PrintNumber(int v);
-
 #endif
 
 
